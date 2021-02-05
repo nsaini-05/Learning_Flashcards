@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+   
+  }
+  
+
+  body{
+    
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+   background-color: #95c3ef;
+    width: 100%;
+    
+        
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: transparent;
+    padding: 10px;
+    margin: auto;
+    width: auto%;
+    justify-items: center;
+
+  }
+  
