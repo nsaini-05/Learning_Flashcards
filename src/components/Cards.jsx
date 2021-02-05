@@ -16,9 +16,7 @@ function Card(props)
     setClicked(prevValue => {return !prevValue});
   }  
 
-    return (
-        
-        <div className="flip-card" name = "button" onClick = {cardClick}>
+    return    <div className="flip-card" name = "button" onClick = {cardClick}>
         <div className = {(isClicked) ? "flip-card-inner-rotated" : "flip-card-inner"}>
           <div className="flip-card-front">
          
@@ -38,7 +36,7 @@ function Card(props)
       
       
 
-)
+
   
 }
 
