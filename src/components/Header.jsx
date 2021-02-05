@@ -1,15 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
 function Header()
 {
-    return <div>
-
-<header>
-        <nav className="navbar">
-            <div className="logo"><a href="#">FlashCards</a></div>
+    return         <nav className="navbar">
+            <div className="logo"><a href="www.google.com">FlashCards</a></div>
             
-            <a className="togglebtn" href="#"><span className="line"></span>
+            <a className="togglebtn" href="www.google.com"><span className="line"></span>
                 <span className="line"></span>
                 <span className="line"></span></a>
             <div className="navbar-links">
@@ -21,12 +17,13 @@ function Header()
             </div>
             
         </nav>
-</header>
+        
 
 
 
 
-    </div>
+
+   
 }
 
 
