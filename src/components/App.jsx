@@ -1,6 +1,5 @@
 import React , {useState} from "react";
 import Header from "./Header";
-import Footer from "./Footer"
 import Card from "./Cards"
 import InputArea from "./InputArea"
 
