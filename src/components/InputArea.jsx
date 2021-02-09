@@ -10,9 +10,24 @@ function InputArea(props)
 
     function handleClick(event)
     {
-      {props.onCreated(card)}      
-      event.preventDefault();
-      setCard({title : "" , definition :""});            
+        if(card.title === "" || card.definition === ""){
+         
+          event.preventDefault();
+          setCard({title : "" , definition :""}); 
+        
+           
+        }
+
+        else
+        {
+          
+          {props.onCreated(card)}      
+          event.preventDefault();
+          setCard({title : "" , definition :""});  
+        
+        
+        }
+                 
     }
 
 

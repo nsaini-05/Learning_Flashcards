@@ -9,7 +9,7 @@ function CardsList()
 {
 
 
-    const [cards , setCards] = useState([{title : "",definition :""}]);
+    const [cards , setCards] = useState([]);
 
 
 
